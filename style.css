@@ -13,6 +13,8 @@ body {
 .header {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding-block: 12px;
 }
 
 .header-links {
@@ -61,6 +63,7 @@ a {
 .hero-content-right {
     display: flex;
     background-color: #717377;
+    color: #f9faf8;
     width: 400px;
     height: 200px;
     justify-content: center;
@@ -86,6 +89,22 @@ button {
 .sign-up-button {
     border: 0;
     border-radius: 4px;
+    margin-top: 8px;
+    align-self: flex-start;
+    padding: 6px;
+    width: 100px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    align-self: center;
 }
 
 .quote {
