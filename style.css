@@ -55,8 +55,9 @@ a {
 
 .hero-content {
     box-sizing: border-box;
-    padding: 18px;
+    padding: 10em 18px;
     display: flex;
+    flex-wrap: wrap;
     width: 80%;
     margin: 0 auto;
     justify-content: space-between;
@@ -67,7 +68,6 @@ a {
 .hero-content-left {
     display: flex;
     flex-direction: column;
-    margin-block: 10em;
     flex-basis: 400px;
     flex: 1;
 }
@@ -76,9 +76,8 @@ a {
     display: flex;
     background-color: #717377;
     color: #f9faf8;
-    width: 400px;
-    height: auto;
-    min-height: 200px;
+    height: 300px;
+    min-width: 400px;
     justify-content: center;
     align-items: center;
     flex: 1;
