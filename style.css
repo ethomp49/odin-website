@@ -4,21 +4,26 @@ body {
 }
 
 .hero,
-.footer {
+.footer,
+.header {
     background-color: #1f2937;
 }
 
+
 .header {
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 18px;
 }
 
 .header-links {
     display: flex;
     gap: 16px;
-    width: 500px;
     justify-content: flex-end;
 }
 
@@ -38,11 +43,6 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
-}
-
-.hero {
-    display: flex;
-    flex-direction: column;
 }
 
 .hero-content {
