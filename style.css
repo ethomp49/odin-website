@@ -178,18 +178,20 @@ button {
 }
 
 .action-banner {
+    box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 800px;
-    align-self: center;
-    margin: 80px;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 80px auto;
     background-color:#3882f6;
-    padding: 40px 100px;
+    padding: 40px 8%;
     border-radius: 10px;
 }
 
 .banner-header {
+    text-wrap:nowrap;
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
@@ -202,6 +204,8 @@ button {
 
 .banner-button button{
     border: 2px solid #f9faf8;
+    margin: 1em auto;
+    text-wrap: nowrap;
     font-size: 18px;
     font-weight: bolder;
     border-radius: 8px;
